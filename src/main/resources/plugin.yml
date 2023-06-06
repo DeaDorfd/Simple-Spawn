@@ -1,0 +1,8 @@
+name: SimpleSpawn
+author: DeaDorfd
+version: 1.0
+api-version: 1.19
+main: me.deadorfd.simplespawn.SimpleSpawn
+commands:
+   Spawn: null
+   setSpawn: null

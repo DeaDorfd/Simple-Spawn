@@ -1,0 +1,27 @@
+#Variables: %command%
+Prefix: "&8[&6Simple Spawn&8] &7"
+
+# If this is activated, the player will always be teleported to the spawn when joining!
+Teleport Player Spawn: true
+
+# If this is activated, a player who has never been on the server before will be teleported to the spawn!
+Teleport new Player Spawn: true
+
+# If this is enabled, you will be notified when a new version is released.
+CheckforUpdates: true
+
+Messages:
+    # This message comes up when you have 'Check for Updates' on. 
+    Notify on Join: "&7This Plugin has an &2Update &7look at this page >&6 %link%"
+    
+    # Messages for Commands
+    MustPlayer: "You must a Player."
+    WrongCommand: "&cWrong &7Command. Please use &8/%command%"
+    NoPermission: "You have &cno &7right to do that!"
+    SpawnWasNotSet: "The spawn was &cnot &7set."
+    SpawnSet: "The spawn was &2set&7."
+    SpawnTeleported: "You have been &2teleported &7to the spawn."
+
+Permissions:
+    Admin: "system.admin"
+    SetSpawn: "system.setspawn"
