@@ -26,23 +26,6 @@ public class Config {
 		return cfg.getString("Messages." + path).replaceAll("&", "§");
 	}
 
-	public static String getMessagePlayer(String path, String playername) {
-		return getMessage(path).replaceAll("%player%", playername);
-	}
-
-	public static String getWarpMessage(String path, String warpname) {
-		return getMessage(path).replaceAll("%warpname%", warpname);
-	}
-
-	public static String getGamemodeMessage(String gamemode) {
-		return getMessage("GamemodeSet").replaceAll("%gamemode%", getString("Gamemodes." + gamemode));
-	}
-
-	public static String getGamemodeOtherPlayerMessage(String gamemode, Player target) {
-		return getMessage("GamemodeSetOther").replaceAll("%gamemode%", getString("Gamemodes." + gamemode))
-				.replaceAll("%player%", target.getName());
-	}
-
 	public static String getPermission(String path) {
 		return cfg.getString("Permissions." + path);
 	}

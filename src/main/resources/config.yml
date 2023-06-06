@@ -8,7 +8,7 @@ Teleport Player Spawn: true
 Teleport new Player Spawn: true
 
 # If this is enabled, you will be notified when a new version is released.
-CheckforUpdates: true
+Check for Updates: true
 
 Messages:
     # This message comes up when you have 'Check for Updates' on. 
