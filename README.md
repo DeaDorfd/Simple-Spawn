@@ -3,7 +3,7 @@ As the name suggests, it is a simple spawn plugin that brings players directly t
 
 ## How to Install?
 
-1. Download the plugin on [SpigotMC](https://www.spigotmc.org/resources/67032/) and put it in your plugins folder. 
+1. Download the plugin on [SpigotMC](https://www.spigotmc.org/resources/110301/) and put it in your plugins folder. 
 2. restart your server. 
 3. Have fun :)
 
