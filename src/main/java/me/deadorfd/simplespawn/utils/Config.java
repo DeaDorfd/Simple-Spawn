@@ -34,6 +34,10 @@ public class Config {
 		return cfg.getString(path).replaceAll("&", "§");
 	}
 
+	public static int getInt(String path) {
+		return cfg.getInt(path);
+	}
+
 	public static boolean getBoolean(String path) {
 		return cfg.getBoolean(path);
 	}
@@ -65,11 +69,12 @@ public class Config {
 		World world = Bukkit.getWorld(cfg.getString("WorldName"));
 		double yaw = cfg.getDouble("Yaw");
 		double pitch = cfg.getDouble("Pitch");
-		player.teleport(new Location(world, cfg.getDouble("X"), cfg.getDouble("Y"), cfg.getDouble("Z"), (float) yaw,
-				(float) pitch));
+		player.teleport(new Location(world, cfg.getDouble("X"), cfg.getDouble("Y"),
+				cfg.getDouble("Z"), (float) yaw, (float) pitch));
 	}
 
 	public static boolean isSpawnSet() {
-		return new File(SimpleSpawn.getInstance().getDataFolder().getPath() + "//spawn.yml").exists();
+		return new File(SimpleSpawn.getInstance().getDataFolder().getPath() + "//spawn.yml")
+				.exists();
 	}
 }

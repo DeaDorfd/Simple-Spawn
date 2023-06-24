@@ -1,6 +1,6 @@
 name: SimpleSpawn
 author: DeaDorfd
-version: 1.0
+version: 1.3
 api-version: 1.19
 main: me.deadorfd.simplespawn.SimpleSpawn
 commands:
